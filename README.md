@@ -40,12 +40,15 @@ $ heroku open
 
 [Setup Postgres on Local Machine](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup)
 
-> postgres super user info
+```console
+postgres super user info
 C:\Program Files\PostgreSQL\9.6
 admin
 admin
 5432
 Stack Builder: C:\Users\Admin01
+```
+
 cmd > psql -U postgres postgres
 ```cmd > psql -U <database-name> <owner-name>```
 
