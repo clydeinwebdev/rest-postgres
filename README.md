@@ -49,8 +49,10 @@ admin
 Stack Builder: C:\Users\Admin01
 ```
 
+```console
 cmd > psql -U postgres postgres
-```cmd > psql -U <database-name> <owner-name>```
+cmd > psql -U <database-name> <owner-name>
+```
 
 ```console
 $ heroku addons:create heroku-postgresql:hobby-dev
