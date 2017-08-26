@@ -11,10 +11,25 @@
     <hr>
 	<div id="app"></div>
 
+	<table border="1">
+		<thead>
+			<tr>
+				<td>ENDPOINT</td>
+				<td>DESCRIPTION</td>
+			</tr>
+		</thead>
+		<tbody>			
+			<tr>
+				<td><a href="/api/users">/api/users</a></td>
+				<td>Get all users</td>
+			</tr>
+		</tbody>
+	</table>
+
     <script src="/js/jquery-3.2.1.min.js"></script>
   	<script>
 
-	  	var html = "<h1><%= title %></h1>";
+	  	var html = "<h1><%= title %></h1>";	  	
 	  	$('#app').html(html);
 
   	</script>
