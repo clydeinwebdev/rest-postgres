@@ -40,7 +40,7 @@ $ heroku open
 
 [Setup Postgres on Local Machine](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup)
 
-postgres super user info
+> postgres super user info
 C:\Program Files\PostgreSQL\9.6
 admin
 admin
